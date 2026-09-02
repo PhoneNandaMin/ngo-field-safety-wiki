@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Using a VPN Safely — NGO Field Safety Reference</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site">
+  <div class="inner">
+    <div class="title"><a href="index.html">NGO Field Safety Reference</a></div>
+    <nav>
+      <a href="all-terms.html">All entries</a>
+      <a href="about.html">About</a>
+    </nav>
+  </div>
+</header>
+
+<div class="crumbs"><a href="index.html">Home</a> / <a href="./cyber-security.html">Cyber Security</a> / Using a VPN Safely</div>
+
+<main>
+  <span class="tag">Cyber Security</span>
+
+  <h1>Using a VPN Safely</h1>
+  <p class="dek">How a VPN protects your browsing, and what to check before you trust one.</p>
+
+  <figure class="figure">
+    <svg viewBox="0 0 640 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Diagram comparing browsing with and without a VPN">
+      <text x="20" y="24" font-size="13" fill="#4b5550" font-family="sans-serif">Without a VPN</text>
+      <rect x="20" y="40" width="90" height="40" rx="4" fill="#f1efe9" stroke="#d8dcd9"/>
+      <text x="65" y="64" font-size="11" text-anchor="middle" fill="#1f2421" font-family="sans-serif">Your device</text>
+      <line x1="110" y1="60" x2="220" y2="60" stroke="#a1442f" stroke-width="2" stroke-dasharray="4 3"/>
+      <text x="165" y="50" font-size="10" text-anchor="middle" fill="#a1442f" font-family="sans-serif">visible</text>
+      <rect x="220" y="40" width="110" height="40" rx="4" fill="#f1efe9" stroke="#d8dcd9"/>
+      <text x="275" y="58" font-size="11" text-anchor="middle" fill="#1f2421" font-family="sans-serif">Local network</text>
+      <text x="275" y="70" font-size="11" text-anchor="middle" fill="#1f2421" font-family="sans-serif">/ ISP</text>
+      <line x1="330" y1="60" x2="420" y2="60" stroke="#a1442f" stroke-width="2" stroke-dasharray="4 3"/>
+      <rect x="420" y="40" width="90" height="40" rx="4" fill="#f1efe9" stroke="#d8dcd9"/>
+      <text x="465" y="64" font-size="11" text-anchor="middle" fill="#1f2421" font-family="sans-serif">Website</text>
+
+      <text x="20" y="130" font-size="13" fill="#4b5550" font-family="sans-serif">With a VPN</text>
+      <rect x="20" y="146" width="90" height="40" rx="4" fill="#f1efe9" stroke="#d8dcd9"/>
+      <text x="65" y="170" font-size="11" text-anchor="middle" fill="#1f2421" font-family="sans-serif">Your device</text>
+      <line x1="110" y1="166" x2="330" y2="166" stroke="#3a5a48" stroke-width="3"/>
+      <text x="220" y="156" font-size="10" text-anchor="middle" fill="#3a5a48" font-family="sans-serif">encrypted tunnel</text>
+      <rect x="220" y="146" width="110" height="40" rx="4" fill="#e4ece6" stroke="#3a5a48"/>
+      <text x="275" y="164" font-size="11" text-anchor="middle" fill="#1f2421" font-family="sans-serif">VPN server</text>
+      <text x="275" y="176" font-size="11" text-anchor="middle" fill="#1f2421" font-family="sans-serif">(encrypted)</text>
+      <line x1="330" y1="166" x2="420" y2="166" stroke="#4b5550" stroke-width="2"/>
+      <rect x="420" y="146" width="90" height="40" rx="4" fill="#f1efe9" stroke="#d8dcd9"/>
+      <text x="465" y="170" font-size="11" text-anchor="middle" fill="#1f2421" font-family="sans-serif">Website</text>
+    </svg>
+    <figcaption>Without a VPN, your local network operator can see which sites you visit. A VPN encrypts that first leg of the connection.</figcaption>
+  </figure>
+
+  <h2>Why it matters</h2>
+  <p>A VPN routes your internet traffic through an encrypted connection before it reaches the open internet, which keeps your browsing hidden from whoever controls the local network — relevant if you're working somewhere your connection may be monitored. It does not make you anonymous, and it does not protect against malware already on your device or a compromised account — it protects one specific leg of the journey.</p>
+
+  <h2>Choosing a provider</h2>
+  <p>Digital rights organizations that work directly with activists and journalists — including Access Now and groups compiling activist security guides — commonly point toward VPN providers with an independently audited no-logs policy, rather than free or ad-supported apps of unknown origin.</p>
+
+  <table class="data">
+    <caption>Providers commonly cited in activist digital-security guides — verify current status before recommending</caption>
+    <tr><th>Provider</th><th>No-logs policy</th><th>Kill switch</th><th>Notes</th></tr>
+    <tr><td>Mullvad</td><td>Yes, audited</td><td>Yes</td><td>Accepts cash/anonymous payment; no email required</td></tr>
+    <tr><td>IVPN</td><td>Yes, audited</td><td>Yes</td><td>Frequently cited in activist security guides</td></tr>
+    <tr><td>Proton VPN</td><td>Yes, audited</td><td>Yes</td><td>Free tier available; built by the team behind Proton Mail</td></tr>
+  </table>
+
+  <h2>What to check</h2>
+  <p>Install it before you need it — some VPN provider websites are themselves blocked once you're in-country. Set it to connect automatically rather than relying on remembering to turn it on, and confirm the kill switch is enabled so traffic doesn't leak if the VPN connection drops.</p>
+
+  <div class="callout">This entry is a placeholder for demo purposes — verify current provider recommendations and policies before publishing to your team.</div>
+
+  <h2>Related entries</h2>
+  <ul class="related">
+    <li><a href="two-factor-authentication.html">Two-Factor Authentication</a></li>
+  </ul>
+</main>
+
+<footer class="site">
+  This is a structural demo, not final content — placeholder entries only, not verified guidance.
+</footer>
+
+</body>
+</html>
